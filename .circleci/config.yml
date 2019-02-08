@@ -36,4 +36,4 @@ jobs:
         
       # run tests!
       - run: yarn ng build --no-progress --prod
-      - run: yarn ng test --watch=false
+      - run: yarn ng test --no-progress --watch=false
